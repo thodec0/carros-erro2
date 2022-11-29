@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Corrida de Carros</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+   
+   
+   
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <!-- ADICIONAR CÓDIGO Firebase SDK ABAIXO -->
+<script>
+ const firebaseConfig = {
+  apiKey: "AIzaSyD0kUvk7S8ARQAz6vCvWme7klKc-gC13ko",
+  authDomain: "carros2-3c844.firebaseapp.com",
+  databaseURL: "https://carros2-3c844-default-rtdb.firebaseio.com",
+  projectId: "carros2-3c844",
+  storageBucket: "carros2-3c844.appspot.com",
+  messagingSenderId: "193815361875",
+  appId: "1:193815361875:web:dcf0389e52d306345909a6"
+};
+firebase.initializeApp(firebaseConfig);
+
+</script>
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+    <script src="./formulario.js"></script>
+    <script src="./jogo.js"></script>
+    <script src="./jogador.js"></script>
+  </body>
+</html>
+
